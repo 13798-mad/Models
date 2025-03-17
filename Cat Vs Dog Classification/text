@@ -1,1 +1,23 @@
+📌 Project Overview
+This project aims to classify images of cats and dogs using Deep Learning. A Convolutional Neural Network (CNN) is built from scratch using TensorFlow/Keras to perform binary classification.
 
+📊 Data Preprocessing & Augmentation
+Rescaling: Normalize pixel values (0-255 → 0-1)
+Resizing: Convert all images to 224x224 pixels
+Train-Validation Split: 80 training and 20 testing
+
+🧠 Model Architecture
+We designed a CNN model with the following layers:
+Convolutional layers with ReLU activation
+MaxPooling layers to reduce spatial dimensions
+Flatten layer to convert features into a 1D array
+Fully connected Dense layer (128 neurons)
+Dropout layer to prevent overfitting
+Sigmoid activation for binary classification
+
+🎯 Model Training & Evaluation
+The model is trained for 10 epochs using a batch size of 32
+
+📊 Results & Accuracy
+The model achieves around 80-90 accuracy on validation dataset.
+The CNN successfully classifies cats and dogs in unseen images.
